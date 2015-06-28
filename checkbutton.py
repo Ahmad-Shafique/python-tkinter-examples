@@ -7,10 +7,10 @@ displays a message indiciating the current Checkbutton state.
 
 import tkinter
 
-class CheckButton(tkinter.Tk):
+class Checkbutton(tkinter.Tk):
     def __init__(self):
         tkinter.Tk.__init__(self)
-        self.title("CheckButton")
+        self.title("Checkbutton")
 
         self.checkbuttonvar = tkinter.IntVar()
 
@@ -27,5 +27,5 @@ class CheckButton(tkinter.Tk):
             print("Checkbutton not selected")
 
 if __name__ == "__main__":
-    application = CheckButton()
+    application = Checkbutton()
     application.mainloop()
