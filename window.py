@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+'''
+An example of an empty window with an associated window title and a set window
+size.
+'''
+
 import tkinter
 
 class Window(tkinter.Tk):

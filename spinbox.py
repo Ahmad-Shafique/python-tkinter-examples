@@ -7,7 +7,7 @@ presses the button.
 
 import tkinter
 
-class Window(tkinter.Tk):
+class Spinbox(tkinter.Tk):
     def __init__(self):
         tkinter.Tk.__init__(self)
         self.title("Spinbox")
@@ -20,5 +20,5 @@ class Window(tkinter.Tk):
         print(self.spinbox.get())
 
 if __name__ == "__main__":
-    application = Window()
+    application = Spinbox()
     application.mainloop()

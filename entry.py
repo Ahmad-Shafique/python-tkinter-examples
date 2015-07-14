@@ -7,7 +7,7 @@ presses the button.
 
 import tkinter
 
-class Window(tkinter.Tk):
+class Entry(tkinter.Tk):
     def __init__(self):
         tkinter.Tk.__init__(self)
         self.title("Entry")
@@ -22,5 +22,5 @@ class Window(tkinter.Tk):
         print(self.entry.get())
 
 if __name__ == "__main__":
-    application = Window()
+    application = Entry()
     application.mainloop()

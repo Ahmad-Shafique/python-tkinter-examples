@@ -7,7 +7,7 @@ the layout.
 
 import tkinter
 
-class Window(tkinter.Tk):
+class Label(tkinter.Tk):
     def __init__(self):
         tkinter.Tk.__init__(self)
         self.title("Label")
@@ -19,5 +19,5 @@ class Window(tkinter.Tk):
         label.pack(fill=tkinter.BOTH, expand=1)
 
 if __name__ == "__main__":
-    application = Window()
+    application = Label()
     application.mainloop()

@@ -7,7 +7,7 @@ values set for the width of handle and sash.
 
 import tkinter
 
-class Window(tkinter.Tk):
+class PanedWindow(tkinter.Tk):
     def __init__(self):
         tkinter.Tk.__init__(self)
         self.title("Label")
@@ -26,5 +26,5 @@ class Window(tkinter.Tk):
         panedwindow.add(label)
 
 if __name__ == "__main__":
-    application = Window()
+    application = PanedWindow()
     application.mainloop()

@@ -7,7 +7,7 @@ presses the button.
 
 import tkinter
 
-class Window(tkinter.Tk):
+class Scale(tkinter.Tk):
     def __init__(self):
         tkinter.Tk.__init__(self)
         self.title("Scale")
@@ -18,5 +18,5 @@ class Window(tkinter.Tk):
         scale.pack(fill=tkinter.BOTH, expand=0)
 
 if __name__ == "__main__":
-    application = Window()
+    application = Scale()
     application.mainloop()
