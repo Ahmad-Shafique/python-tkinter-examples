@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
 '''
-An example of a Label with wrapping at 200 pixels and a left-justification of
-the layout.
+The Grid container provides for multiple widgets to be inserted into a program
+based on defined rows and columns.
 '''
 
 import tkinter
 
-class Label(tkinter.Tk):
+class Grid(tkinter.Tk):
     def __init__(self):
         tkinter.Tk.__init__(self)
         self.title("Grid")
@@ -26,5 +26,5 @@ class Label(tkinter.Tk):
         label.grid(row=2, column=0)
 
 if __name__ == "__main__":
-    application = Label()
+    application = Grid()
     application.mainloop()
